@@ -9,11 +9,7 @@ I made this bot cause I really like memes and I use twitter a lot, so it was onl
 
 It has been made using ruby with some classes to take the load from the main script. 
 
-I corrected the errors using Rubocop and used RSpec to do the testing
-
-## Screenshot
-
-![Screenshot]()
+I corrected the errors using Rubocop and used RSpec to do the testing.
 
 ## Built With
 
