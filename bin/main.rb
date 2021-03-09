@@ -10,13 +10,13 @@ require_relative '../lib/meme_retriever.rb'
 while true
   client = API.new
   memes = MemeRetriever.new
-  time = 1800
+  time = 900
   meme_array = memes.get_memes
   if meme_array.count.positive?
     for x in meme_array
       put client.post_meme(x)
-      puts "Meme posted in https://twitter.com/CollinsTatang1 Waiting #{time} seconds for next meme"
-      sleep(time) # Sleep 30 min between memes
+      puts "Meme posted in https://twitter.com/BotCollins Waiting #{time} seconds for next meme"
+      sleep(time) # Sleep 15 min between memes
     end
   else
     puts 'Something went wrong with the API. Please try again later'
